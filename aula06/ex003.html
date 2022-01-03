@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu primeiro programa...</title>
     <style>
+        /*CSS*/
         body{
             background-color: rgb(240, 240, 240);
         }
@@ -31,7 +32,7 @@
     </style>
 </head>
 <body>
-    
+    <!--HTML-->
     <main>
         <h1>Olá, mundo!</h1>
         <p>Este é meu primeiro documento do curso em <strong>JavaScript</strong></p>
@@ -39,14 +40,21 @@
 
 
     <script>
-        //JavaScript Puro
+        //Conversão de string para Number
+        var n1 = Number(window.prompt('Digite um número.'));
+        var n2 = Number(window.prompt('Digite outro número.'));
 
-        //Alerta
-        window.alert('Bem vindo!');
-        //Confirmações
-        window.confirm('Está gostando de JavaScript?');
-        //Perguntas!
-        window.prompt('Gostaria de ver a minha página?');
+        //Atribuição da Soma a variável.
+        var s = n1 + n2;
+
+        //Conversão de Number pra string
+        window.alert('O resultado é: ' + String(s)); //Concatenação
+
+        /*
+        Number + Number = Adição.
+        String + String = Concatenação.
+        */
+       
     </script>
     
 </body>
