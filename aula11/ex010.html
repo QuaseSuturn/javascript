@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+</head>
+<body>
+    <h1>Sistema de Multas.</h1>
+    <input type="number" name="velocidade" id="txtveloc">
+    <input type="button" value="Verificar." onclick="verificar()">
+    <div><p id="res"></p></div>
+    <script>
+        function verificar(){
+            var checagem_velocidade = window.document.getElementById('txtveloc')
+            var velocidade = Number(checagem_velocidade.value)
+            var resul = window.document.getElementById("res")
+            resul.innerHTML = ("A velocidade do seu carro é de <strong>" + velocidade + "Km/h</strong>. <br>")
+            if(velocidade > 60){
+                resul.innerHTML += "Você ultrapassou a velocidade permitida. <strong>MULTADO!</strong>"
+            }
+        }
+    </script>
+</body>
+</html>
