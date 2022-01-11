@@ -1,5 +1,4 @@
 body{
-    background-color: rgb(78,142,236);
     font: normal 15pt Arial;
 }
 
@@ -17,6 +16,19 @@ section{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.288);
 }
 
+div#hora_do_dia{
+    text-align: center;
+}
+
+section{
+    width: 50vw;
+    
+}
+
+div#imagem > img{
+    display: block;
+    margin: auto;
+}
 
 footer{
     color: white;
