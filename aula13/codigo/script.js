@@ -17,7 +17,6 @@ if(hora >= 0 && hora < 12){
     document.body.style.background = 'rgb(34, 34, 34)'
     img.src = 'estilo/foto-noite-m.png'
 }
-
 }
 
 
