@@ -1,0 +1,4 @@
+//Analisador de Números
+O exercício se baseia no seguinte, um solicitador de números de 1 a 100, se o número estiver entre 1 e 100 e não estiver na lista, ele é adicionado na lista. 
+
+Quando o usuário estiver satisfeito, ele pode clicar em finalizar, e ele mostrará o Total de números digitados, O maior valor informado, O menor valor informado e a média dos valores informados.

@@ -1,6 +1,9 @@
-let v = function(x){
-    return x*2
+function parImpar(n){
+    if(n%2 == 0){
+        return 'Par!'
+    }else{
+        return 'Ímpar!'
+    }
 }
 
-v += v(5)
-console.log(v)
+console.log(parImpar(2))
