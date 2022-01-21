@@ -44,7 +44,7 @@ function finalizar(){
         }
     }
 
-    res.innerHTML += `Total de números encontrados: ${txtnumero.length} <br>`
+    res.innerHTML += `Total de números encontrados: ${num.length} <br>`
     res.innerHTML += `O Maior número encontrado é ${maior_numero} <br>`
     res.innerHTML += `O menor número encontrado é ${menor_numero}`
 }
